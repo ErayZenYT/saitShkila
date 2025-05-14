@@ -66,3 +66,16 @@ button:hoover{
   0 0 77px #e6127c,
   0 0 100px #e6127c;
 }
+
+.box{
+  animation: pulse 2s;
+}
+
+@keyframes pulse{
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1,2);
+  }
+}
