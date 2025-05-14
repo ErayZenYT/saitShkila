@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <meta property="og:title" content="Заголовок страницы в OG">
+    <meta property="og:description" content="Описание страницы в OG">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com/">
+  </head>
+  <body>
+    <style>
+    .box{
+      animation: pulse 2s;
+    }
+    @keyframes pulse{
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1,2);
+      }
+    }
+    </style>
+    <div class="band-header">
+      <header class="site-header">
+        <h1 class="box">Тестовая страница</h1>
+      </header>
+    </div>
+    <nav>
+      <button><a href="index.html" >Главная</a></button>
+    </nav>
+    <button>Glowing button</button>
+    <br>
+    <br>
+    <p class="fade-in">Этот текст появится с анимацией</p>
+    <input type="text">
+    <br>
+    <br>
+    <p class="neon">Neon text</p>
+  </body>
+</html>
